@@ -3,6 +3,7 @@
 
 # Local Configuration
 config.json
+config/platform-credentials.json
 cookies.json
 *.sqlite
 storage_state.json

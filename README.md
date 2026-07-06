@@ -26,6 +26,7 @@ Actual outputs generated using this engine:
 
 - `core/explainer_gen.py`: Triggers landscape video generation.
 - `core/explainer_finisher.py`: Monitors generation and downloads the output.
+- `core/uploader_template.py`: Optional multi-platform uploader framework template (YT, FB, IG, TG, DM).
 - `automation/pc_playwright.py`: DOM selector-based automation for PC/Linux. (Recommended for AI agents).
 - `automation/mobile_xdotool.sh`: Coordinate-based automation for Termux/Mobile environments.
 - `automation/calibrate_coords.sh`: Utility to capture screenshots to easily calibrate mobile click positions.
@@ -76,7 +77,20 @@ Run the pipeline:
    python core/explainer_finisher.py
    ```
 
-### 2. Portrait Shorts Videos (VNC/Browser Automation)
+### 3. Optional: Auto-Uploading Generated Videos
+If you want to automatically upload generated explainers and shorts directly to YouTube, Facebook, Instagram, Dailymotion, or Telegram:
+1. Copy the credentials template to your local path:
+   ```bash
+   cp config/platform-credentials.json.example config/platform-credentials.json
+   ```
+2. Populate the keys in `config/platform-credentials.json` (do not commit this file!).
+3. Use the uploader module:
+   ```bash
+   python core/uploader_template.py --video output/your_video.mp4 --title "My Title" --description "SEO text" --platforms youtube,telegram,instagram --is-short
+   ```
+*Note: This script contains simulation wrappers and integration stubs. Add your own standard SDK calls (like google-api-python-client or Graph API client requests) to make it live for your channel setup.*
+
+---
 
 #### **Method A: PC/Server (DOM Selector Headless)**
 Runs out-of-the-box on standard systems using DOM target selectors. Playwright will log in with your storage state and click the correct elements:
