@@ -4,8 +4,8 @@ Turn raw documents, articles, and text files into viral Landscape Explainers and
 
 [![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nextlief)
 * 👉 **Support Nextlief Project**: [Watch full demos & support our official site](https://kfcc876.github.io/nextlief)
-* 👉 **Support / Donate via Ko-fi**: [Support on Ko-fi (Ko-fi.com/nextlief)](https://ko-fi.com/nextlief)
 
 ---
 
