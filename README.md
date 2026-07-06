@@ -9,10 +9,16 @@ Turn raw documents, articles, and text files into viral Landscape Explainers and
 
 ---
 
-## 🍿 Demo Output Videos (Click to View/Play)
+## 🍿 Demo Output Videos (Click Play to Watch)
 Actual outputs generated using this engine:
-* 📺 **Landscape Explainer Demo:** [Play Explainer Demo Video](demo/explainer_demo.mp4) (~46 MB)
-* 📱 **Portrait Short Demo:** [Play Short Demo Video](demo/short_demo.mp4) (~4.2 MB)
+
+<h3>📺 Landscape Explainer Video Demo</h3>
+<video src="https://github.com/kfcc876/Auto-Content-Creation-NotebookLM/releases/download/media-assets/The_Great_UK_Kebab_Fraud.mp4" controls="controls" width="100%"></video>
+
+<h3>📱 Portrait Shorts Video Demo</h3>
+<video src="https://github.com/kfcc876/Auto-Content-Creation-NotebookLM/releases/download/media-assets/The_Great_British_Kebab_Fraud.mp4" controls="controls" width="100%"></video>
+
+* 👉 **Support Nextlief Project**: [Watch full demos & support our official site](https://kfcc876.github.io/nextlief)
 
 ---
 
