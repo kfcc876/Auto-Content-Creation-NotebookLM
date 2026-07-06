@@ -5,8 +5,7 @@ Turn raw documents, articles, and text files into viral Landscape Explainers and
 [![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 * 👉 **Support Nextlief Project**: [Watch full demos & support our official site](https://kfcc876.github.io/nextlief)
-* 👉 **Paypal Donation**: [Donate via Paypal (molly.kfcc8761@gmail.com)](https://paypal.me/molly.kfcc8761@gmail.com)
-* 👉 **UPI Support Address**: `molly.kfcc8761@okaxis` (Molly Velyn)
+* 👉 **Support / Donate via Ko-fi**: [Support on Ko-fi (Ko-fi.com/nextlief)](https://ko-fi.com/nextlief)
 
 ---
 
