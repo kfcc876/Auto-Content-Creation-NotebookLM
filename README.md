@@ -1,4 +1,4 @@
-# AutoNotebookLM: The NotebookLM Content Generation Engine
+# Auto-Content-Creation-NotebookLM: The NotebookLM Content Generation Engine
 
 Turn raw documents, articles, and text files into viral Landscape Explainers and Portrait Shorts using **NotebookLM** automation. 
 
