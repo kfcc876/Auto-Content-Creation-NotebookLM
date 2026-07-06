@@ -1,0 +1,34 @@
+# .gitignore
+# Ignore system, local configuration, credentials, and video output files.
+
+# Local Configuration
+config.json
+cookies.json
+*.sqlite
+storage_state.json
+
+# Environment files
+.env
+.env.local
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+.pytest_cache/
+
+# Local data & outputs
+output/
+downloads/
+*.mp4
+*.jpg
+*.png
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+notebooklm-py>=0.7.3
+playwright>=1.40.0
+# Optional: xdotool, imagemagick and scrot are system packages.
+# On Linux/Termux, they should be installed using the system package manager:
+# Termux: pkg install xdotool imagemagick Xvfb x11vnc
+# Linux (Ubuntu/Debian): sudo apt install xdotool imagemagick xvfb x11vnc

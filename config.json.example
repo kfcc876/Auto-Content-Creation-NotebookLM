@@ -1,0 +1,24 @@
+{
+  "notebook_id": "YOUR_NOTEBOOK_ID_HERE",
+  "storage_state_path": "config/storage_state.json",
+  "output_dir": "output",
+  "explainer": {
+    "style": "ANIME",
+    "prompt": "Narrate this story in a DEEP, CONFIDENT MALE voice — mature, energetic, thoda husky, full of expression. Style inspired by Mr Fool Explains: dramatic Hinglish storytelling with natural 'bhai' energy. VOICE MODULATION: dramatic pauses before reveals, sudden loud moments for shock, voice crack during twists, whisper-to-loud transitions. STORY PACING (7-Step): HOOK → SLOW BUILD-UP → DRAMATIC REVEAL → EMOTIONAL LAYER → MIND-BLOWING TWIST → ANALYSIS → END HOOK + CTA. LANGUAGE: Natural Hinglish — 'bhai', 'yaar', 'samajh aa raha hai na?' freely. No robotic tone. Follow the 'Hinglish Style Guide' source strictly."
+  },
+  "shorts_automation": {
+    "mode": "pc",
+    "vnc_display": ":1",
+    "vnc_port": 5900,
+    "firefox_profile_path": "",
+    "coordinates": {
+      "account_select": { "x": 641, "y": 274 },
+      "login_next": { "x": 857, "y": 455 },
+      "notebook_card_fallback": { "x": 464, "y": 431 },
+      "studio_button": { "x": 851, "y": 168 },
+      "video_overview": { "x": 525, "y": 299 },
+      "short_format_tab": { "x": 784, "y": 307 },
+      "generate_button": { "x": 862, "y": 552 }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# GitHub Sponsors, Paypal, and UPI configuration for donation
+# This file enables the "Sponsor" button on your GitHub repository.
+
+# Enable custom links
+custom: [
+  "https://paypal.me/sumitranjan876",
+  "https://kfcc876.github.io/nextlief/support"
+]
