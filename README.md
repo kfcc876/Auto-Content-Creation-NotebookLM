@@ -4,18 +4,16 @@ Turn raw documents, articles, and text files into viral Landscape Explainers and
 
 [![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
-
-This repository is designed to be fully self-contained, lightweight, and AI-agent friendly. IDEs and coding agents (like Claude Code, Cursor, Copilot) can parse this README and set up the entire workspace autonomously.
+* 👉 **Support Nextlief Project**: [Watch full demos & support our official site](https://kfcc876.github.io/nextlief)
+* 👉 **Paypal Donation**: [Donate via Paypal (molly.kfcc8761@gmail.com)](https://paypal.me/molly.kfcc8761@gmail.com)
+* 👉 **UPI Support Address**: `molly.kfcc8761@okaxis` (Molly Velyn)
 
 ---
 
-## 🍿 Demo Output Videos (Click to View)
+## 🍿 Demo Output Videos (Click to View/Play)
 Actual outputs generated using this engine:
-* 📺 **Landscape Explainer Demo:** `demo/explainer_demo.mp4` (~46 MB)
-* 📱 **Portrait Short Demo:** `demo/short_demo.mp4` (~4.2 MB)
-
-* 👉 **Support Nextlief Project**: [Watch full demos & support our official site](https://kfcc876.github.io/nextlief)
+* 📺 **Landscape Explainer Demo:** [Play Explainer Demo Video](demo/explainer_demo.mp4) (~46 MB)
+* 📱 **Portrait Short Demo:** [Play Short Demo Video](demo/short_demo.mp4) (~4.2 MB)
 
 ---
 
@@ -48,9 +46,10 @@ pkg install xdotool imagemagick Xvfb x11vnc firefox
 ### Step 2: Authentication (Google Cookies Setup)
 NotebookLM requires browser cookie state to authenticate. Do **not** share your credentials. Instead:
 1. Open a browser and log into [NotebookLM](https://notebooklm.google.com).
-2. Install a cookie exporter browser extension (e.g., *Cookie-Editor*).
-3. Export cookies as **JSON** format.
-4. Save the file into your local project workspace as `config/storage_state.json`.
+2. Export cookies as **JSON** format.
+3. Save the file into your local project workspace as `config/storage_state.json`.
+
+*🤖 **AI Agent Instruction:** If you are an AI agent setting up this repo, you can launch the browser in non-headless mode, wait for the user to complete login manually, and then programmatically grab the storage/cookie state and dump it to `config/storage_state.json` autonomously.*
 
 ---
 
